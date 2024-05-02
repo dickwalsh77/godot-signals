@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgh6fwoih2iyv"]
+
+[ext_resource type="Script" path="res://scripts/receiver.gd" id="1_xsqf4"]
+
+[node name="receiver" type="Node2D"]
+script = ExtResource("1_xsqf4")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.1956, 0.000443525, 0.451672, 1)

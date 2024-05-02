@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://ci64ob14jbo5h"]
+
+[ext_resource type="PackedScene" uid="uid://oln8b8f7gi" path="res://scenes/hover.tscn" id="1_u4j74"]
+[ext_resource type="PackedScene" uid="uid://cgh6fwoih2iyv" path="res://scenes/receiver.tscn" id="2_u572t"]
+
+[node name="game" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="hover" parent="." instance=ExtResource("1_u4j74")]
+position = Vector2(-123, -76)
+
+[node name="receiver" parent="." instance=ExtResource("2_u572t")]
+position = Vector2(119, -96)
